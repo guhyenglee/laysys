@@ -1,0 +1,35 @@
+page-message {
+
+    .messages {
+        margin:5px;
+        padding:5px;
+        list-style-type:none;
+    }
+
+    .messages li {
+        display:block;
+        clear:both;
+        max-width:75%;
+        margin: 5px;;
+        padding: 0px;
+        float:left;
+    }
+
+    .messages .me{
+        float:right;
+    }
+
+    .messages p {
+        border-radius:.75rem;
+        background:#e6e5eb;
+        color:#383641;
+        padding:.6875rem;
+        margin:0;
+        font-size:15px;
+    }
+
+    .me p{
+        background:#158ffe;
+        color:#fff;
+    }
+}

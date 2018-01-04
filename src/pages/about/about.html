@@ -1,0 +1,29 @@
+<ion-header>
+<ion-navbar>
+<ion-title>Login</ion-title>
+</ion-navbar>
+</ion-header>
+
+<ion-content padding>
+
+<ion-list>
+
+  <ion-item>
+    <ion-label fixed>Username</ion-label>
+    <ion-input type="text" value=""></ion-input>
+  </ion-item>
+
+  <ion-item>
+    <ion-label fixed>Password</ion-label>
+    <ion-input type="password"></ion-input>
+  </ion-item>
+
+</ion-list>
+
+<div>
+  <button ion-button small color="secondary"[navPush]="tabspage">로그인</button>
+  <button ion-button small color="secondary" outline [navPush]="contactpage">회원가입</button>
+  <button ion-button small color="secondary" outline [navPush]="findpage">ID/PW찾기</button>
+</div>
+
+</ion-content>

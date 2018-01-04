@@ -1,0 +1,36 @@
+<!--
+  Generated template for the MessagePage page.
+
+  See http://ionicframework.com/docs/components/#navigation for more info on
+  Ionic pages and navigation.
+-->
+<ion-header>
+  <ion-navbar>
+    <ion-title>관리사무소</ion-title>
+  </ion-navbar>
+</ion-header>
+
+
+     <ion-content class="padding" start-y="120">
+        <ol class="messages">
+          <li>
+            <p>108동 1002호 택배 도착했습니다.</p>
+          </li>
+          <li class="me">
+            <p>8시 정도에 찾아가겠습니다.</p>
+          </li>
+          <li class="me">
+            <p>윗집이 너무 시끄러운 것 같아요</p>
+          </li>
+          <li>
+            <p>민원 접수되었습니다.</p>
+          </li>
+        </ol>
+      </ion-content>
+
+<ion-footer class="bar-frosted">
+  <ion-item>
+    <ion-input [(ngModel)]="inputMessage" placeholder="새 메세지"></ion-input>
+    <button ion-button item-right color="primary" style="min-width:50px;" (tap)="tapEvent($event)">전송</button>
+  </ion-item>
+</ion-footer>
